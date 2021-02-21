@@ -10,9 +10,9 @@
     $query = mysqli_query($db,$sql);
     // cek keberhasilan query
         if ($query) {
-            header('Location: index.php?status=sukses');
+            header('Location: list_siswa.php');
         } else {
-            header('Location: index.php?status=gagal');
+            die("Gagal menghapus..");
         }
     } else {
         die("Akses dilarang..");

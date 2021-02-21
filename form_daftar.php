@@ -23,15 +23,15 @@
             </p>
             <p>
                 <label for="jenis_kelamin">Jenis Kelamin:</label>
-                <label ><input type="radio" name="jenis_kelamin" value="laki-laki">Laki-Laki</label>
-                <label ><input type="radio" name="jenis_kelamin" value="perempuan">Perempuan</label>
+                <label ><input type="radio" name="jenis_kelamin" value="Laki-Laki">Laki-Laki</label>
+                <label ><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</label>
             </p>
             <p>
                 <label for="agama">Agama:</label>
                 <select name="agama" >
-                    <option value="islam">Islam</option>
-                    <option value="islam">Kristen</option>
-                    <option value="islam">Hindu</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
                 </select>
             </p>
             <p>

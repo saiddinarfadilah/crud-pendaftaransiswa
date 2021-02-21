@@ -14,6 +14,19 @@
 
     <h3>Menu</h3>
     <nav>
+    <?php 
+        if (isset($_GET['status'])): ?>
+    <p>
+        <?php 
+            if ($_GET['status']=='sukses') {
+                echo "Pendaftaran berhasil...";
+            }else{
+                echo "Pendaftaran gagal..";
+            }
+        ?>
+    <?php endif;?>
+    
+    </p>
         <ul>
             <li><a href="form_daftar.php">Sign Up</a></li>
             <li><a href="list_siswa.php">Register</a></li>
