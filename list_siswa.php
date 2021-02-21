@@ -14,7 +14,7 @@
     </header>
 
     <nav>
-        <a href="#">[+] Tambah</a>
+        <a href="form_daftar.php">[+] Tambah</a>
     </nav>
     <br>
     <table border="1">
