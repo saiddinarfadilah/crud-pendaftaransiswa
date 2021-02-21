@@ -50,7 +50,7 @@
                     
                     echo "<td>";
                         echo "<a href='form-edit.php?id=".$siswa['id']."'>Edit</a> | ";
-                        echo "<a href='form-edit.php?id=".$siswa['id']."'>Hapus</a> | ";
+                        echo "<a href='hapus.php?id=".$siswa['id']."'>Hapus</a> | ";
                     echo "</td>";
 
                     echo "</tr>";
