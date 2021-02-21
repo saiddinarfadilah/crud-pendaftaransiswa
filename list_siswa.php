@@ -30,14 +30,18 @@
             </tr>
         </thead>
         <tbody>
-            <?php 
+            <?php
+                // buat variabel number untuk counter agar nanti jika dihapus nomor tetap ascending 
+                $number = 0;
                 $sql = "SELECT * FROM calon_siswa";
                 $query = mysqli_query($db, $sql);
 
                 while ($siswa = mysqli_fetch_array($query)) {
                     echo "<tr>";
-
-                    echo "<td>".$siswa['id']."</td>";
+                    // counter number
+                    $number++;
+                    // nomor akan tersusun pada saat dicetak dilayar
+                    echo "<td>".$number."</td>";
                     echo "<td>".$siswa['nama']."</td>";
                     echo "<td>".$siswa['alamat']."</td>";
                     echo "<td>".$siswa['jenis_kelamin']."</td>";
@@ -54,6 +58,6 @@
             ?>
         </tbody>
     </table>
-    <p>Total : <?php echo mysqli_num_rows($query) ?>;</p>
+    <p>Total : <?php echo mysqli_num_rows($query); ?></p>
 </body>
 </html>
