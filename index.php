@@ -15,7 +15,7 @@
     <h3>Menu</h3>
     <nav>
         <ul>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="form_daftar.php">Sign Up</a></li>
             <li><a href="list_siswa.php">Register</a></li>
         </ul>
     </nav>
