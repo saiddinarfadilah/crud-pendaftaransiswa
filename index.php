@@ -16,7 +16,7 @@
     <nav>
         <ul>
             <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Register</a></li>
+            <li><a href="list_siswa.php">Register</a></li>
         </ul>
     </nav>
 </body>
