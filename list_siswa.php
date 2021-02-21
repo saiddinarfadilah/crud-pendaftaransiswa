@@ -7,6 +7,6 @@
     <title>Registrasi Siswa</title>
 </head>
 <body>
-    
+    tes
 </body>
 </html>
